@@ -1,76 +1,67 @@
+# Projeto Final – Métricas de Avaliação de Classificação
 
-# Projeto Final – Cálculo de Métricas de Avaliação de Classificação
-
-Projeto desenvolvido para a plataforma **DIO (Digital Innovation One)** com o objetivo de implementar, de forma prática, as principais métricas de avaliação de modelos de classificação, utilizando bibliotecas específicas definidas no enunciado do desafio.
+Este projeto demonstra a implementação das principais métricas de avaliação
+de modelos de classificação, conforme solicitado pela plataforma DIO.
 
 ---
 
-## 📌 Objetivo do Projeto
+## 📌 Objetivo
 
-Gerar uma **matriz de confusão** a partir de dados simulados e, com base nela, calcular as métricas de:
-
+Construir uma matriz de confusão com dados simulados e calcular:
 - Sensibilidade (Recall)
 - Acurácia
+- Precisão
 - F-score
 
-Além disso, construir a **Curva ROC** (referida no enunciado como Curva de Hooke) para avaliação gráfica do desempenho do modelo.
+Além disso, construir a **Curva ROC** (referida como Curva de Hooke no enunciado).
 
 ---
 
 ## 🧰 Tecnologias Utilizadas
 
-- **Python**
-- **TensorFlow**
-- **NumPy**
-- **Pandas**
-- **Seaborn**
-- **Matplotlib**
-- **Google Colab**
+- Python  
+- TensorFlow  
+- NumPy  
+- Pandas  
+- Seaborn  
+- Matplotlib  
+- Google Colab
 
 ---
 
-## 📊 Etapas Desenvolvidas
+## 📋 Etapas do Projeto
 
-1. Instalação e importação das bibliotecas exigidas
-2. Criação de dados simulados para classificação binária
-3. Geração da matriz de confusão utilizando TensorFlow
-4. Cálculo da sensibilidade (recall)
-5. Cálculo da acurácia
-6. Cálculo do F-score
-7. Construção manual da Curva ROC a partir de múltiplos thresholds
-8. Análise do desempenho do modelo
-
----
-
-## 📈 Métricas Implementadas
-
-- **Matriz de Confusão**
-- **Sensibilidade (Recall)**
-- **Acurácia**
-- **Precisão**
-- **F-score**
-- **Curva ROC**
-- **AUC (opcional, utilizando TensorFlow)**
+1. Instalar e importar bibliotecas exigidas.  
+2. Gerar dados simulados para classificação binária.  
+3. Construir matriz de confusão usando TensorFlow.  
+4. Calcular:
+   - Sensibilidade
+   - Acurácia
+   - Precisão
+   - F-score  
+5. Construir manualmente a Curva ROC sem sklearn.  
+6. Visualizar resultados e análises gráficas.
 
 ---
 
-## ▶️ Como Executar o Projeto
+## 📌 Como Executar
 
-1. Abra o notebook no **Google Colab**
-2. Execute todas as células em ordem
-3. Certifique-se de que as bibliotecas foram instaladas corretamente
-4. Analise os resultados exibidos no console e nos gráficos
+1. Abra o notebook no **Google Colab**.  
+2. Execute todas as células na ordem.  
+3. Verifique se as bibliotecas foram instaladas.  
+4. Analise as métricas e gráfico da Curva ROC.
 
 ---
 
-## 📁 Estrutura do Repositório
+## 🏁 Conclusão
 
-```text
-├── metricas_classificacao.ipynb
-└── README.md
+O projeto mostra de forma prática como métricas essenciais de avaliação
+são calculadas e interpretadas, reforçando conceitos de classificação
+binária e capacidade do modelo de discriminar classes.
 
+---
 
-Este projeto demonstra a aplicação prática das métricas de avaliação de modelos de classificação, reforçando o entendimento conceitual e técnico de cada métrica, bem como a interpretação gráfica por meio da Curva ROC, conforme solicitado pela plataforma DIO.
+## 👨‍💻 Autor
 
-Autor
-Prof. Felipe Fuentes Projeto desenvolvido para conclusão de módulo na plataforma DIO.
+Felipe Fuentes  
+Projeto desenvolvido para conclusão de módulo na plataforma **DIO**.
